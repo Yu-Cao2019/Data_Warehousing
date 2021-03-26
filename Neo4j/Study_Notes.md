@@ -51,4 +51,29 @@ Graph database like Neo4j is not a general purpose database. It works well with 
 
 ## Neo4j
 
+### What is Neo4j Database
+Neo4j is a database used to stores information and find it later. It can be written in Java and optimized for dealing with graph data. It is labeled property graph.
+
+Cypher is Neo4j’s query language which is similar to SQL, but optimized for graphs. And cypher is declarative language, which means it describes what you need, not how to get it.
+
+Neo4j is transactional, ACID-compliant database and is made for online transaction processing.
+Neo4j is released in 2007, sponsored by Neo4j, Inc. And it is designed to scale. It is an open-source and community and enterprise versions.
+
+### The Features of Neo4j
+- Intuitive: it uses a graph model for data representation.
+- Reliable: It has full ACID transactions.
+- Durable/Fast: it is custom disk-based, native storage engine.
+- Massively scalable: its scale is up to several billion.
+- Highly available: It is highly available when distributed across multiple machines.
+- Expressive: It has graph query language.
+- Fast: It has powerful traversal framework for high-speed graph queries.
+- Embeddable: it is embeddable with a few small jar files.
+- Simple: It is accessible by REST interface or an object-oriented Java API.
+
+### Four Data Constructs
+- Nodes: These are the main data elements that are interconnected through relationships. A node can have one or more labels (that describe its role) and properties (i.e. attributes).
+- Relationships: A relationship connects two nodes that, in turn, can have multiple relationships. Relationships can have one or more properties. 
+- Properties: These are attributes of both nodes and relationships. Neo4j allows for storing data as key-value pairs, which means properties can have any value (string, number, or Boolean) 
+- Labels: These are used to group nodes, and each node can be assigned multiple labels. Labels are indexed to speed up finding nodes in a graph.
+
 
